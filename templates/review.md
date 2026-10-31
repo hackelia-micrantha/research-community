@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->
+
 # <Exact source title>
 
 - **Identifier / version:** <DOI, arXiv ID and version, or stable revision>

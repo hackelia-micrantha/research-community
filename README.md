@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->
+
 # Micrantha Research Community
 
 Public, evidence-first engineering research: reproducible methods, versioned paper reviews, bounded experiments and lessons for secure software engineering.
@@ -16,4 +18,8 @@ Public, evidence-first engineering research: reproducible methods, versioned pap
 
 The authoritative [Micrantha research prompts](https://github.com/hackelia-micrantha/.github/tree/main/docs/prompts/research) remain separate. This repository publishes reviewed, non-sensitive material, not private tracker contents or the system's policy.
 
-**License pending:** public visibility is not an open-source license. Do not assume rights to reuse this content until the maintainers adopt one. Do not submit third-party paper PDFs, secrets, private notes or unsafe artifacts.
+## License and attribution
+
+Original research writing, reviews, records and templates are licensed under **[Creative Commons Attribution 4.0 International](LICENSES/CC-BY-4.0.txt)** (`CC-BY-4.0`). The tooling, JSON Schema and package configuration are licensed under **[Apache License 2.0](LICENSE)** (`Apache-2.0`).
+
+See [licensing scope and attribution](docs/LICENSING.md). Third-party papers, authors' figures, linked repositories and datasets retain their original rights; our commentary does not relicense them. Do not submit secrets, private notes, third-party PDFs or unsafe artifacts.

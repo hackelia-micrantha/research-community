@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->
+
 # Contributing research
 
 Contribute source-linked reviews, falsifiable experimental plans, and corrections. This is an evidence repository, not a list of paper endorsements.
@@ -15,6 +17,10 @@ Contribute source-linked reviews, falsifiable experimental plans, and correction
 
 Editors may request sources, remove unsupported claims, redact sensitive material, or reject copied text/code. Do not post secrets, private issue links, internal infrastructure details, customer data, personal data, exploits needing coordinated disclosure, or copyrighted paper PDFs. Treat paper code, external scripts and data as untrusted. Never require contributors to execute untrusted research code.
 
-Before accepting external contributions or granting downstream reuse permissions, maintainers must choose and publish a repository license. The current absence of a license is intentional, not an invitation to reuse repository content.
+## Contributor licensing and attribution
+
+Contributions to the research prose, reviews, records, templates and documentation are offered under [CC BY 4.0](LICENSES/CC-BY-4.0.txt); contributions to tooling, JSON Schema and package configuration are offered under [Apache 2.0](LICENSE). See [licensing scope](docs/LICENSING.md) for the exact file mapping. By opening a PR, you represent that you hold the rights necessary to contribute the material under its applicable license. You retain copyright; **no copyright assignment or CLA is required**.
+
+Identify yourself in an appropriate byline or the PR's author credit when desired, and preserve existing review attribution and changes. Distinguish the **authors of a paper** from the **author of a review**. If you cannot license a quotation, figure, table, dataset, or external artifact, link to the source rather than copying it. Maintainers must verify authorization for material migrated from private repositories before publication.
 
 For reportable security defects, follow the organization's [security policy](https://github.com/hackelia-micrantha/.github/blob/main/.github/SECURITY.md) rather than opening an exploit-heavy public issue.

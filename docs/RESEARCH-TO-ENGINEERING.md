@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->
+
 # From external evidence to engineering work
 
 A paper can identify a hypothesis; it cannot declare implementation complete or make an architecture normative.

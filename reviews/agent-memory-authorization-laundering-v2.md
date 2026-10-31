@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->
+
 # Agent Memory Is a Surface for Endogenous Authorization Laundering
 
 **Source:** Cerruti, Okamoto and Erol, [arXiv:2609.01836v2](https://arxiv.org/html/2609.01836v2), revised 2026-10-24; NeurIPS 2026 PALM workshop. **Assessed:** 2026-10-30. **Evidence:** author-reported benchmark; not independently reproduced. **Disposition:** document and evaluate. **Confidence:** medium for transfer beyond the evaluated agent/memory setup.
