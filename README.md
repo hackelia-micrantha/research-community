@@ -1,7 +1,19 @@
 # Micrantha Research Community
 
-Public, evidence-first engineering research: reproducible methods, source-linked reviews, bounded experiments, and research-to-engineering lessons. Contributions are welcome subject to evidence quality, attribution, copyright, and security review.
+Public, evidence-first engineering research: reproducible methods, versioned paper reviews, bounded experiments and lessons for secure software engineering.
 
-This is a **public research publication surface**, not an agent authority plane, production security control, or mirror of private project records. Research findings do not automatically become Micrantha policy, roadmap or engineering requirements.
+## Read research
 
-The [canonical Micrantha research prompts](https://github.com/hackelia-micrantha/.github/tree/main/docs/prompts/research) define method. See `CONTRIBUTING.md`, `docs/METHODOLOGY.md`, and `docs/PUBLICATION.md` for how a review is evaluated and published. License selection remains pending; third-party content must not be copied into this repository without permission.
+- [Agent Memory Is a Surface for Endogenous Authorization Laundering — v2](reviews/agent-memory-authorization-laundering-v2.md) — current source version, methodological caveats and implications for effect-time authority. [Machine-readable record](records/agent-memory-authorization-laundering-v2.json).
+- [Research-to-engineering method](docs/RESEARCH-TO-ENGINEERING.md) — move from evidence to falsifiable engineering work without promoting a paper to authority.
+
+## Contribute and reproduce
+
+- [Methodology](docs/METHODOLOGY.md) — evidence, confidence, versions, controls and reproduction grades.
+- [Review template](templates/review.md) and [experiment template](templates/experiment.md).
+- [Review metadata schema](schema/review.schema.json); `npm run check` runs a lightweight zero-dependency consistency check.
+- [Contributing](CONTRIBUTING.md) and [publication boundary](docs/PUBLICATION.md).
+
+The authoritative [Micrantha research prompts](https://github.com/hackelia-micrantha/.github/tree/main/docs/prompts/research) remain separate. This repository publishes reviewed, non-sensitive material, not private tracker contents or the system's policy.
+
+**License pending:** public visibility is not an open-source license. Do not assume rights to reuse this content until the maintainers adopt one. Do not submit third-party paper PDFs, secrets, private notes or unsafe artifacts.
