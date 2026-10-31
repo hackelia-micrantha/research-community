@@ -1,0 +1,47 @@
+{
+  "id": "arxiv:2609.01836v2",
+  "title": "Agent Memory Is a Surface for Endogenous Authorization Laundering",
+  "source": {
+    "url": "https://arxiv.org/html/2609.01836v2",
+    "version": "v2",
+    "date": "2026-10-24",
+    "authors": "Tommaso Cerruti, Mika Okamoto, Ansel Kaplan Erol",
+    "venue": "NeurIPS 2026 PALM Workshop"
+  },
+  "reviewed_on": "2026-10-30",
+  "source_type": "paper",
+  "evidence_quality": "medium",
+  "reproduction": "not-run",
+  "disposition": "document",
+  "takeaways": [
+    {
+      "claim": "Incremental memory writers can generate or preserve false authorization without an external attacker.",
+      "confidence": "high",
+      "caveat": "Evaluated on synthetic histories and calibrated executors."
+    },
+    {
+      "claim": "Typed incremental memory produced 27.7 percent unauthorized actions on average versus 0.8 percent for typed one-shot in the reported aggregate.",
+      "confidence": "high",
+      "caveat": "Specific models, domains, tasks and memory construction; not a production rate."
+    },
+    {
+      "claim": "In matched memory repair tests, false-authority propagation was 99.0 percent, falling to 1 of 390 with oracle-exact memory.",
+      "confidence": "high",
+      "caveat": "Ground-truth oracle is unavailable to ordinary deployed agents."
+    },
+    {
+      "claim": "A deterministic current-authorization source should be separated from persistent agent context.",
+      "confidence": "medium",
+      "caveat": "This is an engineering inference, not a production-tested paper result."
+    }
+  ],
+  "limitations": [
+    "Synthetic task histories and domain-proxy tools",
+    "Not independently reproduced in this repository",
+    "Earlier tracker numbers refer to a different source version"
+  ],
+  "references": [
+    "https://arxiv.org/abs/2609.01836",
+    "https://github.com/tommasocerruti/eal-bench"
+  ]
+}

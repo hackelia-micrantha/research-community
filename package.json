@@ -1,0 +1,13 @@
+{
+  "name": "@micrantha/research-community",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Public research metadata validation; no publication or execution authority",
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/validate.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

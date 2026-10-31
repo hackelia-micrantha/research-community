@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/hackelia-micrantha/research-community/blob/main/schema/review.schema.json",
+  "title": "Community research review metadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "source",
+    "reviewed_on",
+    "source_type",
+    "evidence_quality",
+    "reproduction",
+    "disposition",
+    "takeaways"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9.:-]+$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 5
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "url",
+        "version",
+        "date"
+      ],
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "date": {
+          "type": "string",
+          "format": "date"
+        },
+        "authors": {
+          "type": "string"
+        },
+        "venue": {
+          "type": "string"
+        }
+      }
+    },
+    "reviewed_on": {
+      "type": "string",
+      "format": "date"
+    },
+    "source_type": {
+      "enum": [
+        "paper",
+        "standard",
+        "report",
+        "documentation",
+        "benchmark"
+      ]
+    },
+    "evidence_quality": {
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "reproduction": {
+      "enum": [
+        "not-run",
+        "ran-unchanged",
+        "environment-repaired",
+        "source-modified",
+        "signal-observed",
+        "semantically-confirmed"
+      ]
+    },
+    "disposition": {
+      "enum": [
+        "adopt",
+        "experiment",
+        "document",
+        "monitor",
+        "reject/defer"
+      ]
+    },
+    "takeaways": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 7,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "claim",
+          "confidence",
+          "caveat"
+        ],
+        "properties": {
+          "claim": {
+            "type": "string",
+            "minLength": 10
+          },
+          "confidence": {
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "caveat": {
+            "type": "string",
+            "minLength": 5
+          }
+        }
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
+    }
+  }
+}
