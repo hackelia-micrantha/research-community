@@ -1,7 +1,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const root = path.resolve(import.meta.dirname, '..');
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const schema = JSON.parse(fs.readFileSync(path.join(root, 'schema/review.schema.json'), 'utf8'));
 if (schema.$schema !== 'https://json-schema.org/draft/2020-12/schema') throw new Error('Unexpected schema dialect');
 const required = schema.required;

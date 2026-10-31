@@ -38,7 +38,7 @@
   "limitations": [
     "Synthetic task histories and domain-proxy tools",
     "Not independently reproduced in this repository",
-    "Earlier tracker numbers refer to a different source version"
+    "Earlier paper versions report different figures; compare the same source revision"
   ],
   "references": [
     "https://arxiv.org/abs/2609.01836",

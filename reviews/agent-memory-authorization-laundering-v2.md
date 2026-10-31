@@ -18,7 +18,7 @@ EAL-Bench separates an agent's false authorization *memory* from a later executo
 
 The revised study evaluates seven memory writers and two calibrated executors in procurement, cybersecurity and finance with paired cases and deterministic authorization ground truth. Histories are synthetic and reviewed; models and provider versions are fixed. Statistical treatment includes three seeds and bootstrap intervals preserving correlated replays. Evaluated tools are simplified domain proxies, not independently observed production effects. The [authors' benchmark repository](https://github.com/tommasocerruti/eal-bench) was **not** executed for this review.
 
-**Version caveat:** the prior Micrantha tracker cites numbers from the earlier source snapshot; v2 is dated October 24, 2026 and reports revised figures. Do not mix v1 and v2 percentages.
+**Version caveat:** v2 is dated October 24, 2026 and reports revised figures. Do not mix metrics across source revisions.
 
 ## Engineering implications
 
