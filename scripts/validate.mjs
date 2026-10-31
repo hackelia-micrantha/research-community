@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: Apache-2.0
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -9,10 +10,14 @@ const required = schema.required;
 const enumFields = ['source_type', 'evidence_quality', 'reproduction', 'disposition'];
 const records = fs.readdirSync(path.join(root, 'records')).filter(p => p.endsWith('.json'));
 if (records.length === 0) throw new Error('Expected at least one review record');
+for (const file of ['LICENSE', 'LICENSES/CC-BY-4.0.txt', 'docs/LICENSING.md']) {
+  if (!fs.existsSync(path.join(root, file))) throw new Error(`Missing licensing file: ${file}`);
+}
 const seen = new Set();
 for (const filename of records) {
   const record = JSON.parse(fs.readFileSync(path.join(root, 'records', filename), 'utf8'));
   for (const field of required) if (!(field in record)) throw new Error(`${filename}: missing ${field}`);
+  if (record.license !== 'CC-BY-4.0') throw new Error(`${filename}: wrong content license`);
   for (const field of enumFields) if (!schema.properties[field].enum.includes(record[field]))
     throw new Error(`${filename}: invalid ${field}`);
   if (!/^[a-z0-9][a-z0-9.:-]+$/.test(record.id)) throw new Error(`${filename}: invalid ID`);
@@ -26,4 +31,8 @@ for (const filename of records) {
       throw new Error(`${filename}: incomplete takeaway`);
   }
 }
-console.log(`Validated ${records.length} research record(s) for required metadata and enums. JSON Schema is normative; this built-in check is intentionally partial.`);
+const proseFiles = ['README.md', 'CONTRIBUTING.md', ...['docs', 'reviews', 'templates'].flatMap(d => fs.readdirSync(path.join(root, d)).filter(f => f.endsWith('.md')).map(f => `${d}/${f}`))];
+for(const f of proseFiles) {
+  if (!fs.readFileSync(path.join(root, f), 'utf8').startsWith('<!-- SPDX-License-Identifier: CC-BY-4.0 -->')) throw new Error(`Missing prose SPDX identifier: ${f}`);
+}
+console.log(`Validated ${records.length} research record(s), ${proseFiles.length} prose SPDX identifiers and required license files. JSON Schema is normative; this built-in check is intentionally partial.`);

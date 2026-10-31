@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->
+
 # Public contribution and publication boundary
 
 `research-community` is a curated public view, not an automatic mirror. Publication requires an intentional PR or authorized manual promotion.
@@ -13,6 +15,8 @@
 
 Do not automate a job that opens a private repository to a public checkout, copies all files, or grants public CI credentials to private sources. CI tests format and links only; it never approves publication or creates deployment authority.
 
-## License status
+## Licensing and attribution gate
 
-A license has not been chosen. GitHub visibility alone does not grant permission to reuse contents. Resolve licensing in a separate maintainer decision before presenting this as licensed open-source material.
+The public repository uses [CC BY 4.0](../LICENSES/CC-BY-4.0.txt) for authored prose, research reviews, records and templates, and [Apache 2.0](../LICENSE) for scripts, the JSON Schema and package configuration. The authoritative [file-level scope and attribution instructions](LICENSING.md) apply to all exported content. Source attribution for the *paper* is separate from attribution to the *review author*. Confirm that the owner has the right to publish original text under its assigned license; public visibility or possession of a private note does not itself establish licensing rights.
+
+A source link, figure, diagram, dataset, code excerpt or paper PDF from a third party retains its original rights. Do not relicense or copy a third-party work without separate permission and notice. Every promotion still needs source-version grounding, independent diff review and explicit publication authority.

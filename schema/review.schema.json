@@ -13,7 +13,8 @@
     "evidence_quality",
     "reproduction",
     "disposition",
-    "takeaways"
+    "takeaways",
+    "license"
   ],
   "properties": {
     "id": {
@@ -135,6 +136,12 @@
         "type": "string",
         "format": "uri"
       }
+    },
+    "license": {
+      "type": "string",
+      "const": "CC-BY-4.0",
+      "description": "License for original review content and metadata; excludes linked third-party works."
     }
-  }
+  },
+  "$comment": "SPDX-License-Identifier: Apache-2.0"
 }

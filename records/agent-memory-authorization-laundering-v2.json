@@ -43,5 +43,6 @@
   "references": [
     "https://arxiv.org/abs/2609.01836",
     "https://github.com/tommasocerruti/eal-bench"
-  ]
+  ],
+  "license": "CC-BY-4.0"
 }

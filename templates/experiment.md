@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->
+
 # <Experiment title>
 
 - **Question:** <A falsifiable question>
