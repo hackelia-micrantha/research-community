@@ -7,6 +7,7 @@ Public, evidence-first engineering research: reproducible methods, versioned pap
 ## Read research
 
 - [Agent Memory Is a Surface for Endogenous Authorization Laundering — v2](reviews/agent-memory-authorization-laundering-v2.md) — current source version, methodological caveats and implications for effect-time authority. [Machine-readable record](records/agent-memory-authorization-laundering-v2.json).
+- [Applied research and engineering evidence](docs/APPLIED-RESEARCH.md) — publication-gated, verified public merge evidence (pending independent IP/security approval).
 - [Research-to-engineering method](docs/RESEARCH-TO-ENGINEERING.md) — move from evidence to falsifiable engineering work without promoting a paper to authority.
 
 ## Contribute and reproduce
