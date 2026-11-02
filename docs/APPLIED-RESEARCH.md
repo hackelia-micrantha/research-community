@@ -75,3 +75,11 @@ For the next pass, reconcile the tracker’s 175 populated Project Integrations 
 - **Verified merged MCP metadata poisoning fixture:** [Governance Lab PR #114](https://github.com/ryjen/anthesis-governance-lab/pull/114), [exact merge commit](https://github.com/ryjen/anthesis-governance-lab/commit/cd8eda381a6e87238dabede79c0096e039bc6e20). Research-specific conformance implementation, not a production deployment claim.
 - **Verified merged durable-memory write governance fixture** ([research source](https://arxiv.org/abs/2606.04329)): [Governance Lab PR #73](https://github.com/ryjen/anthesis-governance-lab/pull/73), [exact merge commit](https://github.com/ryjen/anthesis-governance-lab/commit/3d16e6fb043bfd861900c8480bc501750ccce2c0). Conformance fixture only; runtime follow-up remains distinct.
 - **Verified merged compositional memory poisoning fixture** ([research source](https://arxiv.org/abs/2607.14651)): [Governance Lab PR #75](https://github.com/ryjen/anthesis-governance-lab/pull/75), [exact merge commit](https://github.com/ryjen/anthesis-governance-lab/commit/68d484c700293b24c9609b7cda09151100f595e9). Conformance fixture only; runtime follow-up remains distinct.
+## Additional historical integrations verified on 2026-11-01
+
+- Proof of Execution: [Governance Lab PR #91](https://github.com/ryjen/anthesis-governance-lab/pull/91) merged on 2026-10-17 (`9719d4aca076d98e9d4848f8354e7c7e2d5cc20d`). Conformance fixture implemented; no production deployment claim.
+- Control-task negative evidence: [Governance Lab PR #109](https://github.com/ryjen/anthesis-governance-lab/pull/109) merged on 2026-10-18 (`13523133b8dc14a08f19c6690a47cfc55a861fd0`). Synthetic negative-control fixture implemented.
+- Secure LLM Agents composition: [Governance Lab PR #83](https://github.com/ryjen/anthesis-governance-lab/pull/83) is open and unmerged; head `cbfe4b360b3039f7c714a5b0781c3f243c9b3315`.
+- Log-To-Leak: [Governance Lab PR #115](https://github.com/ryjen/anthesis-governance-lab/pull/115) is open and unmerged; head `a11247bef737c9ec1d28d02c4fb6e7e700d4fd21`.
+
+PR state and merge timestamps were checked against GitHub. These entries distinguish merged conformance fixtures from open work and do not claim independent reproduction of the underlying papers.
