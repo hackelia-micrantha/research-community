@@ -33,3 +33,14 @@ The separate [MCP cancellation investigation](https://github.com/hackelia-micran
 For each paper/project pair record: canonical paper ID and revision, the specific adopted idea (not the whole paper), owning repository, issue/PR, merged commit, exact-head tests, independent review, deployed revision if applicable, verification date, limitations and superseding links. Prefer public permalinks to source and CI. If evidence is private, publish only a sanitized statement after review or leave the status pending.
 
 The private research ledger and tracker remain the working source of truth; this public index is a deliberately reviewed projection, **not an automatic mirror**.
+
+## Verified engineering lineage (not paper-specific adoption)
+
+The following engineering artifacts are verified as **merged**. They demonstrate relevant control mechanisms, but the available records do **not** establish that these changes were caused by, or validate, a particular paper. Keep them separate from paper application claims.
+
+| Engineering control | Verified merged evidence | Research relationship | Evidence ceiling |
+| --- | --- | --- | --- |
+| Exact-effect authorization kernel: actor, capability and target binding; approval digest verification; explicit authority states | [Anthesis PR #242](https://github.com/hackelia-micrantha/anthesis/pull/242), merged 2026-09-12, [merge commit 462f582](https://github.com/hackelia-micrantha/anthesis/commit/462f58240590f30368628e65af3f5d73b8fae5fe) | Mechanism relevant to CARI and Log-To-Leak's authority-confusion / secondary-effect hypotheses | Implemented control; **not** verified as paper-derived, deployed, or independently shown to defeat either benchmark |
+| Strict parsing, authorization/verification fuzz boundaries and reproducible corpus smoke | [Anthesis PR #249](https://github.com/hackelia-micrantha/anthesis/pull/249), merged 2026-09-24, [merge commit fb5f30a](https://github.com/hackelia-micrantha/anthesis/commit/fb5f30a0cc1698c65d8c5c5819c6cce71ed1c57d) | Related to independent security mechanism testing, but **not** a SecPRBench reproduction | Implemented test infrastructure; no benchmark or deployment claim |
+
+**Backfill rule:** Existing controls may predate a paper. Label these `related pre-existing engineering` until a source-linked adoption decision and paper-specific regression demonstrate otherwise.
