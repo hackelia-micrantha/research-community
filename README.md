@@ -6,6 +6,8 @@ Public, evidence-first engineering research: reproducible methods, versioned pap
 
 ## Read research
 
+- [Research index — November 17, 2026](indexes/2026-11-17.json) — dated coverage totals and 26 ranked editorial selections (including tied scores). The ranking covers a screened shortlist, not a comprehensive comparison of all tracked research. Author-reported findings are distinguished from engineering interpretations, with assessment basis and limitations.
+
 - [Agent Memory Is a Surface for Endogenous Authorization Laundering — v2](reviews/agent-memory-authorization-laundering-v2.md) — current source version, methodological caveats and implications for effect-time authority. [Machine-readable record](records/agent-memory-authorization-laundering-v2.json).
 - [Research-to-engineering method](docs/RESEARCH-TO-ENGINEERING.md) — move from evidence to falsifiable engineering work without promoting a paper to authority.
 
