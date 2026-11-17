@@ -7,7 +7,7 @@ This public repository uses **two licenses**, selected by file purpose. The root
 | Scope | SPDX identifier | License |
 | --- | --- | --- |
 | `README.md`, `CONTRIBUTING.md`, `docs/**/*.md`, `reviews/**/*.md`, `templates/**/*.md` | `CC-BY-4.0` | [CC BY 4.0 legal code](../LICENSES/CC-BY-4.0.txt) |
-| `records/**/*.json` (authored review metadata, findings and text) | `CC-BY-4.0` | [CC BY 4.0 legal code](../LICENSES/CC-BY-4.0.txt) |
+| `records/**/*.json`, `indexes/**/*.json` (authored review and index metadata, findings and text) | `CC-BY-4.0` | [CC BY 4.0 legal code](../LICENSES/CC-BY-4.0.txt) |
 | `scripts/**`, `schema/**`, `package.json`, `.gitignore` and any future software/build configuration unless explicitly marked otherwise | `Apache-2.0` | [Apache License 2.0](../LICENSE) |
 | Third-party papers, preprints, figures, images, code, datasets, linked artifacts, trade names and external quotations | *Not licensed by this repository* | Their own rights, licenses or applicable exceptions |
 
