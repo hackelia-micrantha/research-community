@@ -2,7 +2,7 @@
 
 # Research review method
 
-The authoritative procedures are maintained in [Micrantha shared research prompts](https://github.com/hackelia-micrantha/.github/tree/main/docs/prompts/research): discovery, paper relevance, and queue-to-project reconciliation. This repository publishes a usable public review format, not a fork of the governing prompts.
+This repository publishes a usable public review format for paper analysis and reproducible evidence. Internal operating procedures are outside the scope of this public format.
 
 ## Research standard
 

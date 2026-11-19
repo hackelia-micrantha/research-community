@@ -13,4 +13,4 @@ A paper can identify a hypothesis; it cannot declare implementation complete or 
 
 For authorization-sensitive agent research, keep **memory and agent recommendations separate from current authority**. A verifier proving data lineage is not an authorization decision; a permit being valid is not proof that its intended effect occurred.
 
-See the [Micrantha research prompts](https://github.com/hackelia-micrantha/.github/tree/main/docs/prompts/research) for the controlling workflow.
+See the [public research review method](METHODOLOGY.md) for source, confidence and reproduction requirements.

@@ -18,7 +18,7 @@ Public, evidence-first engineering research: reproducible methods, versioned pap
 - [Review metadata schema](schema/review.schema.json); `npm run check` runs a lightweight zero-dependency consistency check.
 - [Contributing](CONTRIBUTING.md) and [publication boundary](docs/PUBLICATION.md).
 
-The authoritative [Micrantha research prompts](https://github.com/hackelia-micrantha/.github/tree/main/docs/prompts/research) remain separate. This repository publishes reviewed, non-sensitive material, not private tracker contents or the system's policy.
+The [public methodology](docs/METHODOLOGY.md) and [research-to-engineering method](docs/RESEARCH-TO-ENGINEERING.md) describe the community review format. This repository publishes reviewed, non-sensitive material, not internal tracker contents or operational policy.
 
 ## License and attribution
 
