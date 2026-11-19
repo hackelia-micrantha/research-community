@@ -6,7 +6,7 @@ Public, evidence-first engineering research: reproducible methods, versioned pap
 
 ## Read research
 
-- [Research index — November 17, 2026 (refreshed provisional edition)](indexes/2026-11-17.json) — 349 tracked records, 333 marked reviewed, 321 editorial candidates screened and 25 featured selections. Corpus-wide screening is not a comprehensive primary-text reassessment; 89 priority historical checks remain. Author-reported findings are distinguished from engineering interpretations, with assessment basis and limitations. [Previous edition](https://github.com/hackelia-micrantha/research-community/blob/d8a73f4c87d757abdd782ac3d74f2ba2a9bd4fc2/indexes/2026-11-17.json).
+- [Research index — November 18, 2026 (provisional edition)](indexes/2026-11-18.json) — 352 tracked records, all marked reviewed, 340 editorial candidates screened and 27 featured selections. Twelve records lack usable technical scores; 89 priority historical checks remain. Screening is not comprehensive primary-text reassessment or independent reproduction. [November 17 edition](indexes/2026-11-17.json).
 
 - [Agent Memory Is a Surface for Endogenous Authorization Laundering — v2](reviews/agent-memory-authorization-laundering-v2.md) — current source version, methodological caveats and implications for effect-time authority. [Machine-readable record](records/agent-memory-authorization-laundering-v2.json).
 - [Research-to-engineering method](docs/RESEARCH-TO-ENGINEERING.md) — move from evidence to falsifiable engineering work without promoting a paper to authority.
